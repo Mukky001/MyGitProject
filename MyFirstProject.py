@@ -124,10 +124,11 @@ print (type(b))
 print (type(c))
 print ("********************************") 
 
-# Random Number
+# Random Number 
 import random
 print (random.randrange (1, 20))
-print ("********************************") 
+print ("********************************")
 
 
+#random
 
