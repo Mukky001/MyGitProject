@@ -129,6 +129,39 @@ import random
 print (random.randrange (1, 20))
 print ("********************************")
 
+# Strings in Arrays
+x = "God did!"
+print (x[4])
+print ("********************************")
 
-#random
+# Looping through a string
+for y in "Banana":
+    print(y)
+print ("********************************")
+
+# String lenght
+x = "Banana"
+print(len(x))
+print ("********************************")
+
+# Checking for string presence
+txt = "Best I ever had!"
+print("ever" in txt)
+print ("********************************")
+
+# checking only if string is present
+txt = "Best I ever had!"
+if "ever" in txt:
+    print("yes, 'ever' is present")
+print ("********************************")
+
+# Checking When string is not present
+txt = "Best I ever had!"
+print("ever" not in txt)
+print ("********************************")
+
+# Checking and printing when string is not present
+txt = "Best I ever had!"
+if "free" not in txt:
+    print("No, 'ever' is not present")
 
