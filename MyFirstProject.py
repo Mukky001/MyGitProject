@@ -163,5 +163,9 @@ print ("********************************")
 # Checking and printing when string is not present
 txt = "Best I ever had!"
 if "free" not in txt:
-    print("No, 'ever' is not present")
+    print("No, 'free' is not present")
+print ("********************************")
 
+# Slicing
+x = "God,World!"
+print (x [2:6])
