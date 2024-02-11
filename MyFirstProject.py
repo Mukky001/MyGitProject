@@ -166,6 +166,15 @@ if "free" not in txt:
     print("No, 'free' is not present")
 print ("********************************")
 
-# Slicing
-x = "God,World!"
-print (x [2:6])
+# Slicing (Note: Position 7 not includec)
+x = "God, World!"
+print (x [2:7])
+print ("********************************")
+
+# Slicing from start (Note: Position 6 not includec)
+x = "God, World!"
+print (x [:6])
+print ("********************************")
+
+
+
