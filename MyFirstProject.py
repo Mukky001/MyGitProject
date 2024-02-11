@@ -176,5 +176,12 @@ x = "God, World!"
 print (x [:6])
 print ("********************************")
 
+# Slicing to the end 
+x = "God, World!"
+print (x [2:])
+print ("********************************")
+
+
+
 
 
