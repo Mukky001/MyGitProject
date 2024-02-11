@@ -59,6 +59,7 @@ k = "Sid is adorable"
 print(k)
 print ("********************************")
 
+
 x = "Sid"
 y = "is"
 z = "adorable"
@@ -167,25 +168,39 @@ if "free" not in txt:
 print ("********************************")
 
 # Slicing (Note: Position 7 not includec)
-x = "God, World!"
+x = "God, did!"
 print (x [2:7])
 print ("********************************")
 
 # Slicing from start (Note: Position 6 not includec)
-x = "God, World!"
+x = "God, did!"
 print (x [:6])
 print ("********************************")
 
 # Slicing to the end 
-x = "God, World!"
+x = "God, did!"
 print (x [2:])
 print ("********************************")
 
 # Negative indexing (Note: position -6 not included)
-x = "God, World!"
+x = "God, did!"
 print (x [-6:-2])
 print ("********************************")
 
+# Upper case
+a = "God did!"
+print(a.upper())
+print ("********************************")
+
+# Lower case
+a = "God did!"
+print(a.lower())
+print ("********************************")
+
+# Remove whitespace (.strip)
+k = " Sid is adorable " 
+print(k.strip())
+print ("********************************")
 
 
 
