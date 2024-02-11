@@ -181,6 +181,11 @@ x = "God, World!"
 print (x [2:])
 print ("********************************")
 
+# Negative indexing (Note: position -6 not included)
+x = "God, World!"
+print (x [-6:-2])
+print ("********************************")
+
 
 
 
