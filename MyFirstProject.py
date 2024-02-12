@@ -202,6 +202,11 @@ k = " Sid is adorable "
 print(k.strip())
 print ("********************************")
 
+# Replace String
+a = "God did!"
+print(a.replace("G", "T"))
+
+
 
 
 
