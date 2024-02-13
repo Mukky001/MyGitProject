@@ -205,6 +205,22 @@ print ("********************************")
 # Replace String
 a = "God did!"
 print(a.replace("G", "T"))
+print ("********************************")
+
+# Split string
+a = "We the best music, we the best sound"
+print(a.split(","))
+print ("********************************")
+
+# String concatenation
+a = "We"
+b = "the"
+c = "best"
+d = "music"
+e = a + " " + b + " " + c + " " + d
+print(e)
+
+
 
 
 
