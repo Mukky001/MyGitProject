@@ -219,12 +219,17 @@ c = "best"
 d = "music"
 e = a + " " + b + " " + c + " " + d
 print(e)
+print ("********************************")
 
 # String Format
 age = 25
 txt = "My name is Sid, I am {}"
 print(txt.format(age))
+print ("********************************")
 
-
+quantity = 10
+amount = 50.2
+myorder = "I want {} cubes of sugar and {} Naira garri"
+print(myorder.format(quantity, amount))
 
 
