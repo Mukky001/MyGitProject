@@ -220,8 +220,10 @@ d = "music"
 e = a + " " + b + " " + c + " " + d
 print(e)
 
-
-
+# String Format
+age = 25
+txt = "My name is Sid, I am {}"
+print(txt.format(age))
 
 
 
