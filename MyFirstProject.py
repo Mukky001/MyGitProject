@@ -227,9 +227,19 @@ txt = "My name is Sid, I am {}"
 print(txt.format(age))
 print ("********************************")
 
+# String Format 2
 quantity = 10
 amount = 50.2
 myorder = "I want {} cubes of sugar and {} Naira garri"
 print(myorder.format(quantity, amount))
+print ("********************************")
+
+# Escape Character
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
+
+
+
+
 
 
