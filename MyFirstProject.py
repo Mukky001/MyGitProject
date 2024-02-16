@@ -239,9 +239,17 @@ txt = "We are the so-called \"Vikings\" from the north."
 print(txt)
 print ("********************************")
 
+# Capitalizing first character in a string
 txt = "hello, and welcome to my world."
 x = txt.capitalize()
 print (x)
+print ("********************************")
+
+# Casefold
+txt = "Hello, And Welcome To My World!"
+x = txt.casefold()
+print(x)
+
 
 
 
