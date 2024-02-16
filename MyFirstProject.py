@@ -245,11 +245,16 @@ x = txt.capitalize()
 print (x)
 print ("********************************")
 
-# Casefold
+# Casefold 
 txt = "Hello, And Welcome To My World!"
 x = txt.casefold()
 print(x)
+print ("********************************")
 
+# center (centeralizing string with defined number of spacing)
+txt = "banana"
+x = txt.center(20)
+print(x)
 
 
 
