@@ -255,6 +255,22 @@ print ("********************************")
 txt = "banana"
 x = txt.center(20)
 print(x)
+print ("********************************")
+
+# Counting (counting the number of times a value appears in a string)
+txt = "I love apples, apple are my favorite fruit"
+x = txt.count("apple")
+print(x)
+print ("********************************")
+
+# Function can return a boolean
+def myfunction():
+    return False
+
+if myfunction():
+    print ("YES!")
+else:
+    print ("NO!")    
 
 
 
