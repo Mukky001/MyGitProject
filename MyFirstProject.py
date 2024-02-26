@@ -271,8 +271,8 @@ if myfunction():
     print ("YES!")
 else:
     print ("NO!")    
+print ("********************************")
 
-
-
-
-
+# Checking for object type using bool
+x = 200
+print(isinstance(x, int))
